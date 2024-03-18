@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Me</title>
+  <meta name="description" content="Patrick Fang's About Me page. Learn about my education, skills, and hobbies.">
+  <meta name="keywords" content="Patrick Fang, about me, education, skills, hobbies, computer science, java, c, c++, python, web development, microbiology, biology, basketball, badminton, gaming">
+  <meta name="author" content="Patrick Fang">
+  <link rel="icon" href="service-tools-icon.png" type="image/png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+    @media (max-width: 768px) {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .image-container {
+      grid-column: 1 / 4;
+      text-align: center;
+    }
+
+    .image-container img {
+      min-width: 300px;
+      max-width: 100%;
+    }
+  }
+
+	</style>
+</head>
+<body>
+  <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+  </nav>
+  <header>
+    <h1>About Me</h1>
+  </header>
+ 
+
+  <main>
+    <section class="about-me">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="column">
+          <h3>Education</h3>
+          <p>Associate Degree in Computer Science</p>
+          <p>Langara College</p>
+          <p>2024</p>
+        </div>
+        <div class="column">
+          <h3>Skills</h3>
+          <ul>
+            <li>have experience coding in java, c, c++, python</li>
+            <li>have basic web development skills </li>
+            <li>have knowledge in microbiology and biology</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Basketball</li>
+            <li>Badminton</li>
+          </ul>
+        </div>
+        <div class="image-container">
+            <img src="langara.png" alt="Langara College">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Patrick Fang</p>
+  </footer>
+</body>
+</html>
