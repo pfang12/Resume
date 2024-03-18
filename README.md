@@ -7,4 +7,4 @@ Git
 GitHub
 GitHub Pages
 
-[Link to the website] https://pfang12.github.io/Resume/index.html
+[Link to the website](https://pfang12.github.io/Resume/index.html)
