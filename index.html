@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Resume</title>
+  <meta name="description" content="Patrick Fang's online resume. Front-End Developer specializing in web design and software development.">
+  <meta name="keywords" content="Patrick Fang, Front-End Developer, web design, software development, dev, c++, c, java, python">
+  <meta name="author" content="Patrick Fang">
+  <link rel="icon" href="service-tools-icon.png" type="image/png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    .image-container img {
+    width: 100%;
+    height: auto;
+    float: right;
+    }
+
+    @media (max-width: 768px) {
+      .image-container {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    .image-container img {
+      min-width: 300px;
+      max-width: 100%;
+      flex: none;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      list-style-type: none;
+      padding: 0;
+      margin-left: 10px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Patrick Fang</h1>
+      <h2>Front-End Developer</h2>
+    </div>
+  </header>
+  <script>
+    alert("Welcome to Patrick Fang's resume");
+  </script>
+  <nav>
+        <ul>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Front-End Developer</h2>
+        <p>Welcome to my online resume! I am Patrick Fang, a college student focusing on web design and software development.
+		Learn more about me here. </p>
+		<div class="image-container">
+          <img src="patrickFang.jpg" alt="Patrick Fang - Front-End Developer" class="profile-image">
+        </div>
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Java</li>
+		  <li>C</li>
+		  <li>C++</li>
+		  <li>Python</li>
+          <li>Responsive Web Design</li>
+          <li>UI/UX Design</li>
+          <li>Front-End Frameworks</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <ul>
+          <li>Front-End Developer, ABC Company</li>
+          <li>UI Designer, DEF Company</li>
+		  <li>Software Developer XYZ Company
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Patrick Fang</p>
+    </div>
+  </footer>
+</body>
