@@ -118,8 +118,10 @@ nav ul li a {
   margin: 0;
   padding: 0;
 }
+
 .image-container img {
-  max-width: 200px;
+  max-width: 100%; 
+  height: auto; 
 }
 
 
@@ -131,7 +133,7 @@ nav ul li a {
   }
 
   .image-container img {
-    max-width: 420px;
+    max-width: 100%; /* Adjust the percentage based on your design needs */
   }
 }
 
@@ -142,8 +144,7 @@ nav ul li a {
   }
 
   .image-container img {
-    width: 500px;
-    height: auto;
+    max-width: 100%; /* Image should not exceed 100% of the container's width */
   }
 }
 
